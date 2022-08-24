@@ -1,0 +1,693 @@
+.body {
+    height: 3200px;
+    width: 1440px;
+    background-color: #FFFFFF;
+    ;
+}
+
+.header {
+    margin-left: 73px;
+    width: 1440px;
+    height: 80px;
+    display: flex;
+}
+
+.header_logo {
+
+    margin-top: 31px;
+    height: 21px;
+    width: 170px;
+}
+
+.header_ul {
+    list-style-type: none;
+    display: flex;
+    width: 1014px;
+    height: 80px;
+    margin-top: 31px;
+    padding: 0;
+    padding-left: 252px;
+}
+
+.link_heder {
+    font-family: 'Inter';
+    width: 130px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 33px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.header_img {
+    display: flex;
+}
+
+.header_img>img {
+    width: 16px;
+    height: 16px;
+    margin-top: 31px;
+    margin-left: 0;
+    margin-left: 27px;
+}
+
+.menu_form {
+    border: none;
+    margin-right: 10px;
+    margin-left: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #FFFFFF;
+
+}
+
+.image_carousel {
+    margin-left: 73px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 12px !important;
+    height: 24px !important;
+    background-image: url("../Image/next.png") !important;
+
+}
+
+.carousel-control-prev {
+    right: 0;
+    justify-content: flex-start !important;
+    left: 50px !important;
+
+}
+
+.carousel-control-next {
+    left: 1050px !important;
+    justify-content: flex-end !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../Image/prev.png") !important;
+
+}
+
+.image_carousel {
+    background-color: #DCE5E2;
+    width: 1294px;
+    height: 550px;
+    border-radius: 32px;
+    margin-top: 28px;
+}
+
+.img_carousel_home {
+    width: 647px;
+    height: 600px;
+    margin-left: 640px;
+}
+
+.text_name_carousel {
+    position: absolute;
+    height: 140px;
+    left: 125px;
+    top: 150px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.carousel-indicators>button {
+    width: 194px !important;
+    margin-right: 34px !important;
+    background-color: #000000 !important;
+}
+
+.text_carousel {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    position: absolute;
+    left: 125px;
+    top: 300px;
+}
+
+.btn_carousel {
+    border: 1px solid #000000;
+    border-radius: 200px;
+    width: 170px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    left: 125px;
+    top: 370px;
+}
+
+.container_footer {
+    width: 1440px;
+    height: 378px;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer {
+    width: 1440px;
+    height: 378px;
+    background: #F8F9FA;
+    margin-top: 19px;
+}
+
+.footer_grid {
+    width: 1294px;
+    height: 191px;
+    display: grid;
+    grid-row: auto;
+    grid-template-columns: 4fr 2fr 2fr 2fr 2fr;
+    padding-top: 44px;
+    margin-left: 73px;
+
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_text {
+    margin-top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.footer_text_column {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 14px;
+    text-decoration: none;
+}
+
+.footer_text_name {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.line_footer {
+    width: 1350px;
+    background: #DCE5E2;
+    margin-left: 45px;
+    margin-top: 70px;
+}
+
+.footer_made_by {
+    display: flex;
+    justify-content: space-between;
+    margin: 73px;
+}
+
+.section_two {
+    width: 1350px;
+    height: 1018px;
+    padding-left: 73px;
+    background: #FFFFFF;
+}
+
+.section_two_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1294px;
+    margin-top: 75px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.section_two_name {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+}
+
+.section_two_name_text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+
+}
+
+.section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: start;
+    grid-column-gap: 16px;
+    row-gap: 72px;
+
+
+}
+
+.grid_item_1 {
+    width: 639px;
+    height: 472px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px 5px rgb(168, 167, 167);
+    padding-right: 42px;
+}
+
+.grid_item_2 {
+    grid-column: 2/2;
+    grid-row: 1/4;
+    width: 312px;
+    height: 792px;
+    padding: 144px 0 144px 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px 5px rgb(168, 167, 167);
+
+}
+
+.grid_item_3 {
+    grid-column: 3/3;
+    grid-row: 1/4;
+    width: 312px;
+    height: 792px;
+    padding: 114px 0 115px 0;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+.grid_item_4 {
+    width: 639px;
+    height: 270px;
+    grid-column: 1/1;
+    grid-row: 3/3;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px 5px rgb(168, 167, 167);
+
+}
+
+.grid_item_1_img {
+    width: 500px;
+    height: 377px;
+    margin-left: 42px;
+}
+
+.grid_item_1_laptop {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+}
+
+.grid_item_1_text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    color: #000000;
+
+}
+
+.grid_item_4_img {
+    width: 381px;
+    height: 270px;
+    margin-left: 42px;
+    float: left;
+}
+
+.grid_item_4_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 174px;
+    height: 270px;
+}
+
+.grid_item_4_watch {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+}
+
+.grid_item_4_watch_text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    text-align: right;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+
+}
+
+.grid_item_2_phone {
+    font-family: 'Inter';
+    font-style: normal;
+    margin: 41px 0 0 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.grid_item_2_text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-right: 16px;
+}
+
+.grid_item_3_tablet {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.grid_item_3_text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 42px;
+}
+
+.section_three {
+    width: 1440px;
+    background: #FFFFFF;
+
+}
+
+.section_three_cards {
+    display: flex;
+}
+
+.section_three_card_one {
+    display: flex;
+    flex-direction: column;
+    margin-right: 28px;
+    width: 303px;
+}
+
+.section {
+    margin-left: 73px;
+}
+
+.section_three_macbook {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 9px;
+}
+
+.section_three_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4B4B;
+    margin-top: 25px;
+}
+
+.section_three_price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.img_section_three {
+    width: 247px;
+    height: 214px;
+    margin-bottom: 50px;
+}
+
+.section_four {
+    width: 1440px;
+    height: 663px;
+    padding: 0 73px 0 73px;
+    background-color: #FFFFFF;
+}
+
+.section_four_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.section_four_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 413px;
+    height: 453px;
+    background: #F8F9FA;
+    padding: 41px 77px 0 77px;
+}
+
+.section_four_card_name {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.section_four_card_text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.btn_section_four {
+    border: 1px solid #000000;
+    border-radius: 200px;
+    width: 190px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.section_five {
+    width: 1440px;
+    height: 720px;
+    padding: 0 73px 24px 73px;
+    
+}
+
+.section_five_img {
+    display: flex;
+    margin-top: 56px;
+}
+
+.section_five_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 16px;
+    margin-top: 14px;
+    width: 569px;
+
+}
+
+.section_five_see_all {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: center;
+    width: 1440px;
+    margin-top: 70px;
+}
+
+.section_six {
+    width: 1440px;
+    height: 778px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 73px 0 73px;
+}
+
+.section_six_text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+}
+
+.search {
+    background: #F8F9FA;
+    border: 1px solid #C5C5C5;
+    border-radius: 100px;
+    width: 650px;
+    height: 60px;
+    background-image: url("../Image/search1.png");
+    background-repeat: no-repeat;
+    /*Убираем повтор изображения*/
+    background-position: 20px;
+    /*Позиционируем*/
+    padding-left: 67px;
+
+}
+
+.search::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    width: 120px;
+
+}
+
+.section_six_all_btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+    margin-top: 18px;
+}
+
+.section_six_btn {
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+    padding: 12px 22px 12px 22px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+.section_six_registration {
+    width: 935px;
+    height: 450px;
+    background: #DCE5E2;
+    border-radius: 16px;
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 47px;
+    margin-bottom: 9px;
+}
+
+.section_six_sign_up {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+/* .section_six_sign_up_img{
+    width: 233px;
+    height: 200px;
+} */
+
+.section_six_email {
+    width: 285px;
+    height: 50px;
+    background: #DCE5E2;
+    border: 1px solid #000000;
+    border-radius: 54px 0px 0px 54px;
+    padding-left: 32px;
+    margin-top: 14px;
+}
+
+.section_six_button {
+    width: 115px;
+    height: 50px;
+    background: #000000;
+    border-radius: 0px 200px 200px 0px;
+    color: #FFFFFF;
+    margin-top: 14px;
+}
